@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="oagen"
+            id="oagen">
+      </category>
+      <wizard
+            name="oa模型生成器"
+            icon="icons/sample.gif"
+            category="oagen"
+            class="oagen.wizards.oagen"
+            id="oagen.wizards.oagen">
+      </wizard>
+   </extension>
+
+</plugin>

@@ -1,0 +1,6 @@
+<%@ jet package="com.test" class="oagenNewWizardPage" %> 
+Hello,<%=argument%>! 
+public class Table {
+	yun;
+
+}
